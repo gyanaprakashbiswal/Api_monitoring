@@ -95,15 +95,7 @@ GET    /api/monitor/history
 POST   /api/monitor/add-service
 
 
-## 🗄️ Database Configuration
 
-Update `application.properties`
-
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/monitoringdb
-spring.datasource.username=postgres
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
 
 
 
